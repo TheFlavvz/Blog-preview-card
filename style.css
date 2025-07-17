@@ -1,0 +1,69 @@
+body {
+    font-family: "Figtree", sans-serif;
+    background-color: rgb(245, 208, 78);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-blog {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 8px 8px 0 0 black;
+    width: 350px;
+    padding: 20px;
+    border: 0.1em solid black;
+}
+.card-blog__image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-blog__title {
+    background-color: rgb(245, 208, 78);
+    border: 5px solid rgb(245, 208, 78);
+    margin-right: 18.5em;
+    padding: 0 0.4em 0 0.6em;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.card-blog__date {
+    font-size: 0.8em;
+    margin: 0.5em 0;
+}
+
+.card-blog__subtitle {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    padding: 0.1em 0;
+}
+
+.card-blog__description {
+    font-size: 1.05em;
+    margin: 0.5em 0;
+    color: gray;
+}
+
+.card-blog__author {
+    display: flex;
+    padding: 0.9em 0 0 0;
+}
+
+.card-blog__avatar {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.card-blog__author-name {
+    font-weight: bold;
+    margin: 0;
+    align-self: center;
+    font-size: 0.9em;
+}
