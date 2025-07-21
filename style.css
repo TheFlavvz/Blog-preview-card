@@ -16,40 +16,40 @@ body {
     background-color: white;
     border-radius: 1em;
     box-shadow: 0.5em 0.5em 0 0 black;
-    width: 20em;
+    width: clamp(20em, 30rem, 20em);
     padding-block: clamp(1em, 5rem, 1em);
     padding-inline: clamp(1em, 5rem, 1em);
     border: 0.1em solid black;
 }
 .card-blog__image {
-    width: 20em;
+    width: clamp(20em, 20rem, 20em);
     border-radius: 1em;
 }
 
 .card-blog__title {
     background-color: var(--yellow);
     border: 0.4em solid var(--yellow);
-    margin-inline-end: 16.5em;
+    margin-inline-end: clamp(16.5em, 1rem, 0.1em);
     padding-block: clamp(0.1em, 1rem, 0.1em);
     padding-inline: clamp(0.5em, 1rem, 0.1em);
     border-radius: 0.3em;
-    font-size: 0.9em;
+    font-size: clamp(0.9em, 1rem, 0.9em);
 }
 
 .card-blog__date {
-    font-size: 0.8em;
+    font-size: clamp(0.8em, 1rem, 0.8em);
     margin: 0.5em 0;
 }
 
 .card-blog__subtitle {
-    font-size: 1.5em;
+    font-size: clamp(1.4em, 1rem, 1.4em);
     margin: 0.5em 0;
     padding-block: clamp(0.1em, 0.1rem, 0.1em);
     padding-inline: clamp(0.1em, 0.1rem, 0.5em);
 }
 
 .card-blog__description {
-    font-size: 1.05em;
+    font-size: clamp(0.95em, 1rem, 0.95em);
     margin: 0.5em 0;
     color: gray;
 }
@@ -62,14 +62,13 @@ body {
 
 .card-blog__avatar {
     border-radius: 50em;
-    width: 2em;
-    height: 2em;
-    margin-inline-end: 0.5em;
+    width: clamp(2em, 2rem, 2em);
+    margin-inline-end: clamp(0.5em, 1rem, 0.5em);
 }
 
 .card-blog__author-name {
     font-weight: bold;
     margin: 0;
     align-self: center;
-    font-size: 0.9em;
+    font-size: clamp(0.8em, 1rem, 0.8em);
 }
