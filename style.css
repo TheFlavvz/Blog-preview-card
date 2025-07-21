@@ -38,19 +38,19 @@ body {
 
 .card-blog__date {
     font-size: clamp(0.8em, 1rem, 0.8em);
-    margin: 0.5em 0;
+    margin: clamp(0.5em, 1rem, 0.5em) 0;
 }
 
 .card-blog__subtitle {
     font-size: clamp(1.4em, 1rem, 1.4em);
-    margin: 0.5em 0;
+    margin: clamp(0.5em, 1rem, 0.5em) 0;
     padding-block: clamp(0.1em, 0.1rem, 0.1em);
     padding-inline: clamp(0.1em, 0.1rem, 0.5em);
 }
 
 .card-blog__description {
     font-size: clamp(0.95em, 1rem, 0.95em);
-    margin: 0.5em 0;
+    margin: clamp(0.5em, 1rem, 0.5em) 0;
     color: gray;
 }
 
