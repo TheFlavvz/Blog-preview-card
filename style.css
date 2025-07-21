@@ -1,34 +1,38 @@
+:root {
+    --yellow: rgb(245, 208, 78);
+}
 body {
     font-family: "Figtree", sans-serif;
-    background-color: rgb(245, 208, 78);
+    background-color: var(--yellow);
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 40em;
     margin: 0;
 }
 
 .card-blog {
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 8px 8px 0 0 black;
-    width: 350px;
-    padding: 20px;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 0 0 black;
+    width: 20em;
+    padding-block: clamp(1em, 5rem, 1em);
+    padding-inline: clamp(1em, 5rem, 1em);
     border: 0.1em solid black;
 }
 .card-blog__image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    width: 20em;
+    border-radius: 1em;
 }
 
 .card-blog__title {
-    background-color: rgb(245, 208, 78);
-    border: 5px solid rgb(245, 208, 78);
-    margin-right: 18.5em;
-    padding: 0 0.4em 0 0.6em;
-    border-radius: 5px;
+    background-color: var(--yellow);
+    border: 0.4em solid var(--yellow);
+    margin-inline-end: 16.5em;
+    padding-block: clamp(0.1em, 1rem, 0.1em);
+    padding-inline: clamp(0.5em, 1rem, 0.1em);
+    border-radius: 0.3em;
     font-size: 0.9em;
 }
 
@@ -40,7 +44,8 @@ body {
 .card-blog__subtitle {
     font-size: 1.5em;
     margin: 0.5em 0;
-    padding: 0.1em 0;
+    padding-block: clamp(0.1em, 0.1rem, 0.1em);
+    padding-inline: clamp(0.1em, 0.1rem, 0.5em);
 }
 
 .card-blog__description {
@@ -51,14 +56,15 @@ body {
 
 .card-blog__author {
     display: flex;
-    padding: 0.9em 0 0 0;
+    padding-block: clamp(0.5em, 1rem, 0.5em);
+    padding-inline: clamp(0.5em, 1rem, 0.5em);
 }
 
 .card-blog__avatar {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    border-radius: 50em;
+    width: 2em;
+    height: 2em;
+    margin-inline-end: 0.5em;
 }
 
 .card-blog__author-name {
